@@ -1,0 +1,142 @@
+.accordion-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+.accordion {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.accordion-avatar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.accordion-avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.accordion-icon {
+  font-size: 20px;
+}
+
+.accordion-content {
+  padding: 10px;
+  background-color: #fff;
+}
+
+.accordion-details-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-right: 100px;
+  column-gap: 80px;
+}
+
+.d-label {
+  color: #767676;
+}
+
+.d-below {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-description label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.des-label {
+  display: block;
+  color: #767676;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.description-text {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.accordion-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.delete-button {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  color: red;
+}
+
+.edit-button {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  color: rgb(9, 183, 183);
+}
+
+.cancel1-button,
+.save-button {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px; 
+  margin-right: 10px; 
+}
+
+.cancel1-button {
+  color: red;
+}
+
+.save-button {
+  color: rgb(9, 176, 9);
+}
+
+.cancel1-button:disabled,
+.save-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+select,
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  height: 100px; 
+}
